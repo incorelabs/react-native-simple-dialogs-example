@@ -62,7 +62,7 @@ class Example extends Component {
         // Why? See this https://github.com/facebook/react-native/issues/10471
         setTimeout(
             () => {
-                Alert.alert("YES Button touched!");
+                Alert.alert("The YES Button touched!");
             },
             300,
         );
@@ -74,7 +74,7 @@ class Example extends Component {
         // Why? See this https://github.com/facebook/react-native/issues/10471
         setTimeout(
             () => {
-                Alert.alert("NO Button touched!");
+                Alert.alert("The NO Button touched!");
             },
             300,
         );
